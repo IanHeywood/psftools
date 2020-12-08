@@ -93,7 +93,7 @@ def main():
 
 
     # SETUP OPTIONS
-    parser = OptionParser(usage = '%prog [options] msname')
+    parser = OptionParser(usage = '%prog [options] fitsfile')
     parser.add_option('--x0', dest = 'x0', default = -1, help = 'X pixel of PSF peak (default = central pixel)')
     parser.add_option('--y0', dest = 'y0', default = -1, help = 'Y pixel of PSF peak (default = central pixel)')
     parser.add_option('--cropsize', dest = 'cropsize', default = 51, help = 'Size of region to extract in pixels (default = 51)')
